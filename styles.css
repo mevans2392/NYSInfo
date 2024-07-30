@@ -19,7 +19,7 @@
     bottom: 10%;
 }
 #carousel-wrap {
-    height: 750px;
+    height: 100%;
 }
 #carousel-prev:hover, #carousel-next:hover {
     background-color: lightgray;
