@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New York State</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="intro">
+            <div class="container">
+                <div class="row" style="justify-content: center; position: relative; top: 30px;">
+                    <h1>New York State</h1>
+                </div>
+                <div class="row" id="nys-info" style="margin-top: 10%;">
+                    <p>New York, nicknamed The Empire State, is in the Northeast United States. It is a large state, measuring in at close to 55,000 square miles.</p>
+                    <p>With so much space it isn't a surprise that you can find many things to do within the borders of New York.</p>
+                    <p>New York has professional sports teams, state parks, amusement parks, concert venues, shopping malls, and just about anything that you can think of to have a good time.</p>
+                </div>
+                <div class="row" style="margin-top: 5%;">
+                    <p><strong>Sign up for email updates</strong></p>
+                </div>
+                <div class="row" id="mail-form">
+                    <form action="mailto:mevans12392@gmail.com" method="post" enctype="text/plain">
+                        <input type="text" name="firstname" placeholder="First Name" style="width: 300px;"><br>
+                        <input type="text" name="lastname" placeholder="Last Name" style="width: 300px;"><br>
+                        <input type="text" name="phone" placeholder="Phone Number" style="width: 300px;"><br>
+                        <label>Can we text?</label>
+                        <input type="radio" name="yestext" value="Yes"><label for="yestext">Yes</label>
+                        <input type="radio" name="notext" value="No"><label for="notext">No</label><br>
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="row" id="next-page" style="justify-content: center;">
+                    <a href="#carousel-wrap" style="text-align: center;"><img id="down-caret" src="images/caret-down.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="carousel-wrap">
+            <div id="carousel" class="carousel slide" data-interval="false">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                    <li data-target="#carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" id="albany">
+                        <div class="row" style="justify-content: center;">
+                            <h1 style="text-align: center;">Albany, NY</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" style=" border-right: 1px solid black;">
+                                <h3 style="width: 100%; text-align: center;">Demographic Information</h3>
+                                <ul>
+                                    <li>Population: 100,826</li>
+                                    <li>Incorperation Year: 1609</li>
+                                    <li>Region: The Capitol Region</li>
+                                    <li>Type of City: Urban</li>
+                                    <li>Median Household Income: $52,583</li>
+                                    <li>State Median Household Income: $71,117</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Top 5 Attractions</h3>
+                                <ol>
+                                    <li>USS Slater DE-766</li>
+                                    <li>New York State Capitol</li>
+                                    <li>New York State Museum</li>
+                                    <li>Schuyler Mansion</li>
+                                    <li>Albany Institute of History & Art</li>
+                                </ol>
+                            </div>
+                            <div class="col-md-4">
+                                <table>
+                                    <tr>
+                                        <th>Attraction</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>USS Slater</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>New York State Capitol</td>
+                                        <td>Free</td>
+                                    </tr>
+                                    <tr>
+                                        <td>New York State Museum</td>
+                                        <td>Free - Donation Suggested</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Schuyler Mansion</td>
+                                        <td>$5.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Institute of History & Art</td>
+                                        <td>$5.00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 2%;">
+                            <img src="images/slater.jpeg" class="carousel-pics">
+                            <img src="images/albany.jpeg" class="carousel-pics">
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="nyc">
+                        <div class="row" style="justify-content: center;">
+                            <h1 style="text-align: center;">New York City</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Demographic Information</h3>
+                                <ul>
+                                    <li>Population: 8.3 million</li>
+                                    <li>Incorperation Year: 1898</li>
+                                    <li>Region: NYC</li>
+                                    <li>Type of City: Urban</li>
+                                    <li>Median Household Income: $74,694</li>
+                                    <li>State Median Household Income: $71,117</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Top 5 Attractions</h3>
+                                <ol>
+                                    <li>Central Park</li>
+                                    <li>9/11 Memorial and Museum</li>
+                                    <li>Metropolitan Museum of Art</li>
+                                    <li>Empire State Building</li>
+                                    <li>The High Line</li>
+                                </ol>
+                            </div>
+                            <div class="col-md-4">
+                                <table>
+                                    <tr>
+                                        <th>Attraction</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Central Park</td>
+                                        <td>Free</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9/11 Memorial and Museum</td>
+                                        <td>$33.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Metropolitan Museum of Art</td>
+                                        <td>$49.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Empire State Building</td>
+                                        <td>$48.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>The High Line</td>
+                                        <td>Free</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 4%; height: 100%;">
+                            <img src="images/newYorkFlag.jpeg" class="carousel-pics">
+                            <img src="images/statueofliberty.jpg" class="carousel-pics">
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="buffalo">
+                        <div class="row" style="justify-content: center;">
+                            <h1 style="text-align: center;">Buffalo, NY</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Demographic Information</h3>
+                                <ul>
+                                    <li>Population: 276,486</li>
+                                    <li>Incorperation Year: 1832</li>
+                                    <li>Region: Western NY</li>
+                                    <li>Type of City: Urban</li>
+                                    <li>Median Household Income: $42,186</li>
+                                    <li>State Median Household Income: $71,117</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Top 5 Attractions</h3>
+                                <ol>
+                                    <li>Frank Lloyd Wright's Martin House</li>
+                                    <li>Buffalo and Erie County Naval & Military Park</li>
+                                    <li>Forest Lawn</li>
+                                    <li>Theodore Roosevelt Inaugural National Historic Site</li>
+                                    <li>Buffalo AKG Art Museum</li>
+                                </ol>
+                            </div>
+                            <div class="col-md-4">
+                                <table>
+                                    <tr>
+                                        <th>Attraction</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Martin House</td>
+                                        <td>$25.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Naval & Military Museum</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Forest Lawn</td>
+                                        <td>Free</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Roosevelt Historic Site</td>
+                                        <td>$12.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>AKG Art Museum</td>
+                                        <td>$18.00</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 4%; height: 100%;">
+                            <img src="images/buffalo.jpeg" class="carousel-pics">
+                            <img src="images/buffMilPark.jpeg" class="carousel-pics">
+                        </div>
+                    </div>
+                    <div class="carousel-item" id="syracuse">
+                        <div class="row" style="justify-content: center;">
+                            <h1 style="text-align: center;">Syracuse, NY</h1>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Demographic Information</h3>
+                                <ul>
+                                    <li>Population: 144,451</li>
+                                    <li>Incorperation Year: 1847</li>
+                                    <li>Region: Central NY</li>
+                                    <li>Type of City: Urban</li>
+                                    <li>Median Household Income: $40,490</li>
+                                    <li>State Median Household Income: $71,117</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4" style="border-right: 1px solid black">
+                                <h3 style="width: 100%; text-align: center;">Top 5 Attractions</h3>
+                                <ol>
+                                    <li>Erie Canal Museum</li>
+                                    <li>Rosamond Gifford Zoo</li>
+                                    <li>Destiny USA</li>
+                                    <li>Museum of Science and Technology (MOST)</li>
+                                    <li>City Market</li>
+                                </ol>
+                            </div>
+                            <div class="col-md-4">
+                                <table>
+                                    <tr>
+                                        <th>Attraction</th>
+                                        <th>Cost</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Erie Canal Museum</td>
+                                        <td>$10.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rosamond Gifford Zoo</td>
+                                        <td>$9.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Destiny USA</td>
+                                        <td>Shopping Center</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MOST</td>
+                                        <td>$14.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>City Market</td>
+                                        <td>Shopping Center</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 4%; height: 100%;">
+                            <img src="images/dome.jpeg" class="carousel-pics">
+                            <img src="images/erieMuseum.jpeg" class="carousel-pics">
+                        </div>
+                    </div>
+                </div>
+                <a id="carousel-prev" class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a id="carousel-next" class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>    
+</html>

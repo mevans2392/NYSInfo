@@ -1,0 +1,36 @@
+#intro {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/statueofliberty.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#nys-info {
+    position: relative;
+    width: 40%;
+}
+#down-caret {
+    width: 10%;
+}
+#down-caret:hover {
+    width: 20%;
+    transition-duration: 1000ms;
+    position: relative;
+    bottom: 10%;
+}
+#carousel-wrap {
+    height: 750px;
+}
+#carousel-prev:hover, #carousel-next:hover {
+    background-color: lightgray;
+    opacity: .5;
+}
+.carousel-pics {
+    width: 50%;
+}
+td {
+    border: 1px solid black;
+}
+tr th {
+    text-align: center;
+}
