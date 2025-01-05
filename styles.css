@@ -1,3 +1,5 @@
+@import "../bootstrap-4.3.1-dist/css/";
+
 #intro {
     height: 100vh;
     width: 100vw;
@@ -5,10 +7,10 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-#nys-info {
+/*#nys-info {
     position: relative;
     width: 40%;
-}
+}*/
 #down-caret {
     width: 10%;
 }
