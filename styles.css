@@ -7,11 +7,6 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-/*#nys-info {
-    position: relative;
-    width: 40%;
-}*/
 #down-caret {
     width: 10%;
 }
@@ -22,12 +17,17 @@
 #carousel-wrap {
     height: 100%;
 }
-#carousel-prev:hover, #carousel-next:hover {
-    background-color: lightgray;
-    opacity: .5;
+#carousel-prev, #carousel-next {
+    filter: invert(100%);
 }
 .carousel-pics {
     width: 50%;
+    position: relative;
+    left: 5%;
+    overflow-x: auto;
+}
+table {
+    margin: 5%;
 }
 td {
     border: 1px solid black;
