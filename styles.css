@@ -2,11 +2,12 @@
 
 #intro {
     height: 100vh;
-    width: 100vw;
+    width: 115%;
     background-image: url(images/statueofliberty.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 /*#nys-info {
     position: relative;
     width: 40%;
@@ -16,9 +17,7 @@
 }
 #down-caret:hover {
     width: 20%;
-    transition-duration: 1000ms;
-    position: relative;
-    bottom: 10%;
+    transition-duration: 100ms;
 }
 #carousel-wrap {
     height: 100%;
